@@ -26,3 +26,10 @@ Se han empleado recursos de video tutoriales y material proporcionado por la asi
 - [Chat de OpenAI](https://chat.openai.com)
 
 ---
+## Explicacion
+DFS (Depth First Search) Este método añade los diferentes nodos a una pila y comprueba que el nodo seleccionado sea el destino indicado, si no lo es, añadimos los nuevos nodos al principio de la pila.
+BFS (Breath First Graph Search) Este método añade los diferentes nodos a una cola haciendo uso de la clase FIFOQueue y comprobando si este es el destino, si no lo es, seguimos añadiendo al final de la cola.
+BB (Branch & Bound) Esta clase implementa una cola con funcionalidades específicas de ordenamiento y
+gestión de tamaño.
+
+BBS (Branch and Bound subestimated) Esta clase se utiliza para gestionar una cola de prioridad donde los elementos se ordenan según una combinación de un costo de camino y una heurística asociada.
